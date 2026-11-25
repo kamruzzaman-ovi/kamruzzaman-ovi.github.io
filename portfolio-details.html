@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Md Kamruzzamman</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Md Kamruzzaman</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://bdrobotech.blogspot.com/" class="blogger"><i class="fa-brands fa-blogger"></i></a>
+      <a href="https://www.facebook.com/kamruzzman.ovi" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.linkedin.com/in/md-kamruzzaman-ovi/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Project</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#">Robotics</a></li>
+            <li><a href="#">Design and Drawing</a></li>
+            <li><a href="#">Software and App</a></li>
+              <li class="dropdown"><a href="#"><span>Download</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="https://drive.google.com/file/d/1uls5ouXe0LixzHevoCQiiZnk3B7ZIWEH/view?usp=sharing">Robot Control App</a></li>
+                <li><a href="https://drive.google.com/file/d/1jymUlQOLLaKoOedmdS5Ps2eaW-3xPEEn/view?usp=sharing">Office Management </a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+    
+    
+    <!-- Portfolio Details Start -->
+
+<section id="portfolio-details" class="portfolio-details section">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="portfolio-details-slider swiper init-swiper">
+
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": 1,
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          }
+        }
+      </script>
+
+      <div class="swiper-wrapper align-items-center">
+
+        <div class="swiper-slide">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <img src="assets/img/portfolio/app-1.jpg" alt="Robot Control Application" class="img-fluid">
+            </div>
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>Robot Control Mobile App</h3>
+                <ul>
+                  <li><strong>Category</strong>: Software & ERP</li>
+                  <li><strong>Tech Stack</strong>: Android (Java/Kotlin)</li>
+                  <li><strong>Key Feature</strong>: Real-time sensor monitoring</li>
+                </ul>
+              </div>
+              <div class="portfolio-description">
+                <h2>Mobile Control Interface</h2>
+                <p>A specialized Android application developed for wireless robot navigation. It features an intuitive UI for manual movement commands and a telemetry dashboard for live system feedback.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <img src="assets/img/portfolio/product-1.jpg" alt="LPG Handling Structure" class="img-fluid">
+            </div>
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>LPG Handling Structure</h3>
+                <ul>
+                  <li><strong>Category</strong>: Engineering Design</li>
+                  <li><strong>Software</strong>: SolidWorks / AutoCAD</li>
+                  <li><strong>Key Feature</strong>: Safety-focused load analysis</li>
+                </ul>
+              </div>
+              <div class="portfolio-description">
+                <h2>Automated Conveyor Framework</h2>
+                <p>Advanced 3D CAD modeling of a structural framework designed for LPG cylinder logistics. The design prioritizes structural integrity and ergonomic handling for industrial environments.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <img src="assets/img/portfolio/branding-1.jpg" alt="Autonomous Robot" class="img-fluid">
+            </div>
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>Autonomous Inspection Robot</h3>
+                <ul>
+                  <li><strong>Category</strong>: Robotics & Automation</li>
+                  <li><strong>Hardware</strong>: Arduino, Ultrasonic Sensors</li>
+                  <li><strong>Key Feature</strong>: Obstacle Detection logic</li>
+                </ul>
+              </div>
+              <div class="portfolio-description">
+                <h2>Smart Navigation Prototype</h2>
+                <p>An autonomous mobile robot designed for factory inspection. It utilizes an array of ultrasonic sensors to detect barriers and calculate safe paths without human intervention.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+<div class="swiper-slide">
+  <div class="row gy-4">
+    <div class="col-lg-8">
+      <img src="assets/img/portfolio/R&D.jpg" alt="R&D and Prototyping Capability" class="img-fluid">
+    </div>
+    <div class="col-lg-4">
+      <div class="portfolio-info">
+        <h3>R and D and Prototyping Capability</h3>
+        <ul>
+          <li><strong>Category</strong>: Mechanical Rand D & Product Development</li>
+          <li><strong>Tools</strong>: SolidWorks, Creality Ender 3 V3 SE, XY Plotter</li>
+          <li><strong>Key Focus</strong>: Rapid prototyping & design validation</li>
+        </ul>
+      </div>
+      <div class="portfolio-description">
+        <h2>Design → Test → Refine Workflow</h2>
+        <p>
+          Demonstrates hands-on Rand D capability through rapid prototyping and functional testing.
+          Mechanical components are designed in CAD, produced using in-house 3D printing, and
+          validated through motion testing and mechanism evaluation using an XY plotter.
+          This iterative workflow supports early-stage design optimization and DFM discussions
+          before mass production.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+       
+        <div class="swiper-slide">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <img src="assets/img/portfolio/app-2.jpg" alt="Robot Interface" class="img-fluid">
+            </div>
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>Robot Control Interface</h3>
+                <ul>
+                  <li><strong>Category</strong>: Software & ERP</li>
+                  <li><strong>Feature</strong>: Enhanced Android UI</li>
+                  <li><strong>Status</strong>: Operational Prototype</li>
+                </ul>
+              </div>
+              <div class="portfolio-description">
+                <h2>Interactive System Hub</h2>
+                <p>The secondary interface for the robotics suite, focusing on graphical data representation of battery health, speed calibration, and motor status.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <img src="assets/img/portfolio/product-2.jpg" alt="Industrial Tower" class="img-fluid">
+            </div>
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>Industrial Tower Structure</h3>
+                <ul>
+                  <li><strong>Category</strong>: Engineering Design</li>
+                  <li><strong>Software</strong>: CAD Modeling</li>
+                  <li><strong>Application</strong>: Heavy Support Infrastructure</li>
+                </ul>
+              </div>
+              <div class="portfolio-description">
+                <h2>Structural Support Framework</h2>
+                <p>High-fidelity CAD model of an industrial support tower. Optimized for load distribution and material efficiency in heavy-duty manufacturing plants.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <img src="assets/img/portfolio/branding-2.jpg" alt="Ultrasonic Robot" class="img-fluid">
+            </div>
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>Ultrasonic Sensor Robot</h3>
+                <ul>
+                  <li><strong>Category</strong>: Robotics & Automation</li>
+                  <li><strong>Tech</strong>: Embedded Systems</li>
+                  <li><strong>Feature</strong>: Multi-sensor fusion</li>
+                </ul>
+              </div>
+              <div class="portfolio-description">
+                <h2>Spatial Awareness Prototype</h2>
+                <p>A closer look at the sensor integration on the mobile base. This project demonstrates precision calibration between hardware triggers and software response times.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <img src="assets/img/portfolio/app-3.jpg" alt="ERP System" class="img-fluid">
+            </div>
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>ERP Management System</h3>
+                <ul>
+                  <li><strong>Category</strong>: Software & ERP</li>
+                  <li><strong>Features</strong>: Payroll, Tasks, Analytics</li>
+                  <li><strong>Role</strong>: Full Stack Developer</li>
+                </ul>
+              </div>
+              <div class="portfolio-description">
+                <h2>Operations Dashboard</h2>
+                <p>A comprehensive digital hub for industrial management. This custom ERP streamlines project tracking, employee payroll, and financial billing into a single interactive dashboard.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+</section>```
+
+   <!-- Portfolio Details End -->
+
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">bdprinting.shop</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">Md Kamruzzaman</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

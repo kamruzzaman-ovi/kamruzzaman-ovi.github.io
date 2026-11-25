@@ -1,0 +1,6 @@
+Thank you fro Reading my file.
+
+Here is simple Instruction to read all program.
+here is a presentation video you can check.
+To read the program file you need LOGOsoft (SIEMENS) installed on your computer.
+To read and properly visulize SolidWorks file you need SolidWorks 2020 installed on your compurer.
